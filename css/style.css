@@ -29,8 +29,9 @@ ul {
 /* header */
 header {
     width: 100%;
-    height: 30px;
+    height: 50px;
     padding: 10px 0;
+    align-items: center;
 }
 .btn {
     background-color: var(--color-end-toolbar);
@@ -42,7 +43,7 @@ header {
 /* main */
 main {
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 120px);
     overflow-y: auto;
     padding: 20px;
     gap: 10px;
@@ -73,6 +74,15 @@ main {
     background-color: var(--color-toolbar);
     height: 70px;
 }
+.left {
+
+}
+.center {
+
+}
+.right {
+
+}
 
 /* utility */
 .d-flex {
@@ -87,4 +97,7 @@ main {
 }
 .wrap {
     flex-wrap: wrap;
+}
+.s-between {
+    justify-content: space-between;
 }

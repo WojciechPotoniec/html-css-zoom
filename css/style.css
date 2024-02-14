@@ -73,15 +73,26 @@ main {
 #toolbar {
     background-color: var(--color-toolbar);
     height: 70px;
+    flex-wrap: wrap;   
 }
-.left {
-
+.left div {
+text-align: center;
+margin: 0 10px;
+font-size: 16px;
 }
-.center {
-
+.center div {
+ text-align: center;
+ margin: 0 10px;
+ font-size: 16px;
+}
+#share {
+    color: var(--color-share-screen);
 }
 .right {
-
+background-color: var(--color-end-toolbar);
+color: var(--color-red-text);
+padding: 0 10px;
+font-size: 16px;
 }
 
 /* utility */
@@ -91,9 +102,12 @@ main {
 .flex-end {
     justify-content: flex-end;
 }
-.align-items {
+.align-content {
     justify-content: center;
     align-content: center;
+}
+.align-items {
+    align-items: center;
 }
 .wrap {
     flex-wrap: wrap;

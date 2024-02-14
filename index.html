@@ -13,11 +13,11 @@
 
 <body>
     <div id="app">
-        <header class="d-flex flex-end ">
+        <header class="d-flex flex-end wrap">
             <div class="btn"><i class="fa-solid fa-grip"></i> Speaker View</div>
             <div class="btn"><i class="fa-solid fa-maximize"></i></div>
         </header>
-        <main class="d-flex align-items wrap">
+        <main class="d-flex align-content wrap">
             <div class="card">
                 <img src="https://picsum.photos/seed/{1}/200/300" alt="img 1">
                 <div class="badge"><i class="fa-solid fa-microphone-slash"></i> Pinco Pallo</div>
@@ -159,26 +159,26 @@
                 <div class="badge"><i class="fa-solid fa-microphone-slash"></i> Pinco Pallo</div>
             </div>
         </main>
-        <div id="toolbar" class="d-flex s-between align-items">
-            <div class="left d-flex">
-                <div><i class="fa-solid fa-microphone"></i><h5>Mute</h5></div>
+        <div id="toolbar" class="d-flex s-between ">
+            <div class="left d-flex align-items wrap">
+                <div><i class="fa-solid fa-microphone"></i><br><span>Mute</span></div>
                 <div><i class="fa-solid fa-chevron-up"></i></div>
-                <div><i class="fa-solid fa-video"></i><h5>Stop Video</h5></div>
+                <div><i class="fa-solid fa-video"></i><br><span>Stop Video</span></div>
                 <div><i class="fa-solid fa-chevron-up"></i></div>
             </div>
-            <div class="center d-flex">
-                <div><i class="fa-solid fa-user-plus"></i><h5>Invite</h5></div>
-                <div><i class="fa-solid fa-users"></i><h5>Manage Partecipants</h5></div>
-                <div><i class="fa-solid fa-chart-column"></i><h5>Polling</h5></div>
-                <div><i class="fa-solid fa-share-from-square"></i><h5>Share Screen</h5></div>
+            <div class="center d-flex align-items wrap">
+                <div><i class="fa-solid fa-user-plus"></i><br><span>Invite</span></div>
+                <div><i class="fa-solid fa-users"></i><br><span>Manage Partecipants</span></div>
+                <div><i class="fa-solid fa-chart-column"></i><br><span>Polling</span></div>
+                <div><i class="fa-solid fa-share-from-square" id="share"></i><br><span>Share Screen</span></div>
                 <div><i class="fa-solid fa-chevron-up"></i></div>
-                <div><i class="fa-solid fa-comment"></i><h5>Chat</h5></div>
-                <div><i class="fa-solid fa-record-vinyl"></i><h5>Record</h5></div>
-                <div><i class="fa-solid fa-table-cells-large"></i><h5>Breakout Rooms</h5></div>
-                <div><i class="fa-solid fa-ellipsis"></i><h5>More</h5></div>
+                <div><i class="fa-solid fa-comment"></i><br><span>Chat</span></div>
+                <div><i class="fa-solid fa-record-vinyl"></i><br><span>Record</span></div>
+                <div><i class="fa-solid fa-table-cells-large"></i><br><span>Breakout Rooms</span></div>
+                <div><i class="fa-solid fa-ellipsis"></i><br><span>More</span></div>
             </div>
-            <div class="right d-flex">
-                <h5>End meeting</h5>
+            <div class="right d-flex align-items">
+                <span>End meeting</span>
             </div>
     </div>
 </body>

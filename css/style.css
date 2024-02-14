@@ -12,3 +12,10 @@
 ul {
     list-style: none;
 }
+:root {
+	--color-bg-viewport: #000000;
+	--color-secondary: #ffffff;
+	--color-red-text: #ee1512;
+	--color-share-screen: #4bc800;
+	--color-toolbar: #222222;
+}
